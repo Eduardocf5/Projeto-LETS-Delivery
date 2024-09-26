@@ -1,0 +1,23 @@
+{
+  "name": "crud-clientes",
+  "version": "1.0.0",
+  "description": "Sistema CRUD de Clientes usando AWS Lambda, DynamoDB e API Gateway",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.318.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.114",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^20.4.1",
+    "@types/uuid": "^10.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.2.2"
+  }
+}
